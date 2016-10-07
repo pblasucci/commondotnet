@@ -5,8 +5,8 @@ This repository contains the slide deck, accompanying source code, and errata fo
 
 To date, this material has been presented as follows:
 
-    17 SEP 2016 at [Vermont Code Camp](http://vtcodecamp.org/)
-    08 OCT 2016 at [Code Camp NYC](http://codecampnyc.org/)
+  + 17 SEP 2016 at [Vermont Code Camp](http://vtcodecamp.org/)
+  + 08 OCT 2016 at [Code Camp NYC](http://codecampnyc.org/)
 
 ---
 
