@@ -9,3 +9,5 @@ To date, this material has been presented as follows:
     08 OCT 2016 at [Code Camp NYC](http://codecampnyc.org/)
 
 ---
+
+###### The slide deck and source code are released under the MIT license. Please see the [LICENSE](https://gitlab.com/pblasucci/commondotnet/blob/master/LICENSE.txt) file for further details.
