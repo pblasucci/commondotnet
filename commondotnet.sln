@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JobRunner", "JobRunner", "{87A391D3-165A-4D00-AFC8-E92B213400F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PayCalendar", "PayCalendar", "{FCC15426-50AC-413B-B63E-7E77781F4768}"
+	ProjectSection(SolutionItems) = preProject
+		PayCalendar.Tests.Compat.fsx = PayCalendar.Tests.Compat.fsx
+	EndProjectSection
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Before.JobRunner", "Before.JobRunner\Before.JobRunner.fsproj", "{38CD4126-BEB3-469B-8253-52387A06D1CA}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "After.JobRunner", "After.JobRunner\After.JobRunner.fsproj", "{EE90EB01-031F-4475-B211-2214FEC440FA}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "JobRunner.Tests.Compat", "JobRunner.Tests.Compat\JobRunner.Tests.Compat.vbproj", "{15673848-5AEF-41ED-85D0-8D13CC1D3F8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Before.PayCalendar", "Before.PayCalendar\Before.PayCalendar.csproj", "{9C8EC1F6-10AA-478D-8F09-E8B4CB336696}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "After.PayCalendar", "After.PayCalendar\After.PayCalendar.csproj", "{45D3B32D-2DB9-43CD-A5E5-582A0B009AAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38CD4126-BEB3-469B-8253-52387A06D1CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38CD4126-BEB3-469B-8253-52387A06D1CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38CD4126-BEB3-469B-8253-52387A06D1CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38CD4126-BEB3-469B-8253-52387A06D1CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE90EB01-031F-4475-B211-2214FEC440FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE90EB01-031F-4475-B211-2214FEC440FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE90EB01-031F-4475-B211-2214FEC440FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE90EB01-031F-4475-B211-2214FEC440FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15673848-5AEF-41ED-85D0-8D13CC1D3F8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15673848-5AEF-41ED-85D0-8D13CC1D3F8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15673848-5AEF-41ED-85D0-8D13CC1D3F8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15673848-5AEF-41ED-85D0-8D13CC1D3F8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C8EC1F6-10AA-478D-8F09-E8B4CB336696}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C8EC1F6-10AA-478D-8F09-E8B4CB336696}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C8EC1F6-10AA-478D-8F09-E8B4CB336696}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C8EC1F6-10AA-478D-8F09-E8B4CB336696}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45D3B32D-2DB9-43CD-A5E5-582A0B009AAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45D3B32D-2DB9-43CD-A5E5-582A0B009AAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45D3B32D-2DB9-43CD-A5E5-582A0B009AAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45D3B32D-2DB9-43CD-A5E5-582A0B009AAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{38CD4126-BEB3-469B-8253-52387A06D1CA} = {87A391D3-165A-4D00-AFC8-E92B213400F0}
+		{EE90EB01-031F-4475-B211-2214FEC440FA} = {87A391D3-165A-4D00-AFC8-E92B213400F0}
+		{15673848-5AEF-41ED-85D0-8D13CC1D3F8C} = {87A391D3-165A-4D00-AFC8-E92B213400F0}
+		{9C8EC1F6-10AA-478D-8F09-E8B4CB336696} = {FCC15426-50AC-413B-B63E-7E77781F4768}
+		{45D3B32D-2DB9-43CD-A5E5-582A0B009AAF} = {FCC15426-50AC-413B-B63E-7E77781F4768}
+	EndGlobalSection
+EndGlobal
